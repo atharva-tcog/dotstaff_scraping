@@ -1,0 +1,5 @@
+.env
+dotstaff_venv/
+__pycache__/
+chromedriver-win64/
+logs/
