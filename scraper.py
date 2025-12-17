@@ -168,8 +168,8 @@ class DotstaffScraper:
             job_posted_date=safe_text(By.ID, "lbllive_post_date"),
             job_closed_date=safe_text(By.ID, "lblClosingDateTime"),
 
-            contract_start_date=safe_text(By.ID, "lblContractStartDate"),
-            job_expiry_date=safe_text(By.ID, "lblContractEndDate"),
+            contract_start_date=safe_text(By.ID, "lblProjectedStartDate"),
+            job_expiry_date=safe_text(By.ID, "lblProjectedEndDate"),
             duration=safe_text(By.ID, "lblDuration"),
             total_positions=safe_int(By.ID, "lblPositions"),
 
